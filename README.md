@@ -12,7 +12,7 @@ This plugin is built for OpenRocket, an open-source hobby rocketry software. The
 	- The location of this directory is dependant on your operating system:
 		- **Windows**: ~\AppData\Roaming\OpenRocket\Plugins.
 		- **Mac**: ~/Library/Application Support/OpenRocket/Plugins
-		- **Linux**: ~/OpenRocket/Plugins
+		- **Linux**: \~/OpenRocket/Plugins
 <br><br>
 NOTE: '~' refers to your home directory. For Windows, this is likely C:\Users\_username_
 
