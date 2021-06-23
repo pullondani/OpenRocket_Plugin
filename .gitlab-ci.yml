@@ -1,0 +1,42 @@
+# image: gradle:alpine
+stages:
+  - Build
+  - CheckStyles
+  - Test
+  - Deploy
+
+build:
+  stage: Build
+  tags: 
+  - java
+  script:
+    - cd OpenRocket-Simulation-Plugin
+    - gradle build
+  allow_failure: false
+
+check_styles:
+  stage: CheckStyles
+  tags:  
+  - java
+  script:
+    - cd OpenRocket-Simulation-Plugin
+    - gradle check
+  allow_failure: true
+
+unit_testing:
+  stage: Test
+  tags: 
+  - java
+  script:
+   - cd OpenRocket-Simulation-Plugin
+   - gradle test
+  allow_failure: true
+
+deploy:
+  stage: Deploy
+  tags: 
+  - java
+  script:
+    - cd OpenRocket-Simulation-Plugin
+    - gradle jar
+  allow_failure: false
