@@ -14,7 +14,7 @@ This plugin is built for OpenRocket, an open-source hobby rocketry software. The
 		- **Mac**: ~/Library/Application Support/OpenRocket/Plugins
 		- **Linux**: \~/OpenRocket/Plugins
 <br><br>
-NOTE: '~' refers to your home directory. For Windows, this is likely C:\Users\_username_
+NOTE: '~' refers to your home directory. For Windows, this is likely C:\Users\\_username_
 
 ## Contributors
 - [Logan Brantley](https://github.com/Logan-Brantley)
